@@ -1,0 +1,38 @@
+A simple json benchmark.
+
+haskell version depends on package 'aeson'
+ocaml version depends on package 'yojson'
+
+===
+Build and run:
+
+./get_json.sh
+./make.sh
+./run.sh
+
+===
+On my computer:
+
+Haskell:
+0.009033s
+0.01052s
+0.008822s
+0.010395s
+0.008775s
+0.011398s
+0.009601s
+0.008932s
+0.010888s
+0.009422s
+
+Ocaml:
+0.00701904296875
+0.00575685501099
+0.0056369304657
+0.0057098865509
+0.0055980682373
+0.0062038898468
+0.00652289390564
+0.00576210021973
+0.0058171749115
+0.00564694404602
